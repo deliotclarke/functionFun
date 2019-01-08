@@ -11,7 +11,7 @@ var answerY = "Y";
 var answerN = "N";
 var answerStay = "stay";
 var answerGo = "go";
-userWhatever = "";
+var userWhatever = "";
 
 if (typeof answerY){
   console.log("OK! The ball begins in cup 2, we shuffle once, twice, one million times. Where is the ball??")
