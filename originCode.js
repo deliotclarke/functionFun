@@ -45,7 +45,7 @@ funtion userGuess() {
   
   //prompt for user input goes here
   
-  if (typeof userInput != correctAnswer){
+  if (typeof userInput == correctAnswer){
   outputCorrect += " is correct!! You win!")
   if (typeof userInput != incorrectAnswer){
   outputIncorrect += " is noooot correct. Sorry bud. Try Again?"
