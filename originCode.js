@@ -1,26 +1,26 @@
 var arrayCups = [cup1, cup2, cup3];
 
-var hiddenBall; //to store the randomized numbers for the user to guess?
+var hiddenBall = arrayCups[Math.floor(Math.random()*arrayCups.length)]; 
+//to store the randomized numbers for the user to guess?
+
 
 console.log("We have 3 cups and 1 ball. Your job will be to guess which cup the ball is in using the numbers 1, 2 or 3.")
 var userInput1 = prompt ("Are you ready??", "Y or N?")
 //prompt for user to input Y or N
 
-funtions userReady(){
+function userReady(){
 var answerY = "Y";
 var answerN = "N";
 var answerStay = "stay";
 var answerGo = "go";
 var userWhatever = "";
 
-if (typeof answerY){
+if (userInput1 == answerY){
   console.log("OK! The ball begins in cup 2, we shuffle once, twice, one million times. Where is the ball??")
 //now user prompt to function userGuess 
-  
-if (typeof answerN){
+} else if {(userInput1 == answerN){
   console.log("Then why are you here? Actually... Why are any of us here? What are we doing? What balls?... In the grand scheme of space and time what balls even matter? Should we stay or should we go now, amiright? Stay or Go?")
-
-if {(typeof answerStay)
+} else if {(userInput1 == answerStay)
   console.log("ALRIGHT! Let's do this!")
   return answerY;
   //not sure if this would work
