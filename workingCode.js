@@ -2,7 +2,6 @@ function userReady(){
  
   alert("We have 3 cups and 1 ball. Your job will be to guess which cup the ball is in using the numbers 1, 2 or 3.");
   let userReady = prompt ("Are you ready??", "Y or N?");
-
   if (userReady.toLowerCase()  === 'y'){
     alert("Alright! Let's do this!!");
     userGuess();
